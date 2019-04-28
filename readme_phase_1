@@ -1,0 +1,25 @@
+
+PHASE 1
+
+How to execute:
+    ● Put input.asm ,binary_form.txt , type.txt, registers.txt and phase1.cpp
+    together in same file.
+    ● Compile in terminal using command “g++ phase1.cpp”.
+    ● Execute using “.\a.out” in Ubuntu and “a” in windows { before running
+    “phase2.cpp” }.
+    ● “ machine_code.mc ” created as output.
+    This phase consist of taking input instructions and data from file and change to
+    machine code in file for phase-2:
+
+TERMS ( i.e. limitations):
+
+    ● “. word” and “.byte” takes integer as input only not hexagonal.
+    ● keep a space or a line after file end command “fall_through” of input.asm
+    ● don’t put comma ( , ) between registers input ,only space is enough.
+    ● write .text and .data (to enhance readability).
+    ● x0 can be overwritten , take care of that in the assembly code . eg. don’t
+    use jal xo, label will yield a wrong result.
+    ● Input string in .data should not contain “ ” ,instead directly write string. I.e.
+    abcd (not “abcd”).
+    ● Comments not supported yet.
+:---------:
